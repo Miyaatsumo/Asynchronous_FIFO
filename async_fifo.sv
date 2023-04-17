@@ -1,7 +1,4 @@
-module async_fifo #(parameter WIDTH=8,DEPTH=16)
-    (   input logic [WIDTH:0]in,
-        input logic wr_clk,
-        input logic rd_clk,
+
         input logic wr_reset,
         input logic rd_reset,
         input logic wr_en,
